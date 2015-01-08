@@ -222,7 +222,7 @@ footer {
 footer h2 {
   text-align: center;
   color: #1A3F7A;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .popular_posts {
@@ -284,6 +284,8 @@ footer a, li {
 }
 
 .pop_posts a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
   color: #1A3F7A;
   text-decoration: none;
   font-weight: bold;

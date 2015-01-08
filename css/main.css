@@ -43,6 +43,8 @@ header {
   url("../images/beach.jpg");
   min-width: 100%;
   height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #wave_logo {

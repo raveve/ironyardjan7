@@ -123,7 +123,7 @@ article ul {
   margin-bottom: 40px;
 }
 
-#mini_author {
+.mini_author {
   border-radius: 100%;
   height: 25px;
 }
@@ -164,7 +164,7 @@ aside div {
   margin-bottom: 50px;
 }
 
-#norm_author {
+.norm_author {
   border-radius: 100%;
   height: 75px;
   display: block;
@@ -199,6 +199,7 @@ aside a, li {
 
 .adlink {
   float: right;
+  padding-right: 10px;
 }
 
 .sidetext h3 {
@@ -212,83 +213,141 @@ aside a, li {
   line-height: 1.8em;
 }
 
+
 /*******************************
-FOOTER
+SECTION
 ********************************/
-
-footer {
-  border-top: 2px solid #CFCFD1;
-  margin-top: 100px;
-}
-
-footer h2 {
-  text-align: center;
-  color: #1A3F7A;
-  margin-bottom: 30px;
-}
 
 .popular_posts {
   font-size: 0;
 }
 
-.pop_posts {
+.surfer {
   font-size: 16px;
 }
 
-.popular_posts img {
-  width: 350px;
+section {
+  border-top: 2px solid #CFCFD1;
+  margin-top: 100px;
+  position:relative;
 }
 
-.popular_posts div {
-  display: inline-block;
-  height: 350px;
-  width: 350px;
+section h2 {
+  text-align: center;
+  color: #1A3F7A;
+  margin-bottom: 30px;
 }
 
-.popular_posts {
-  padding-right: 10px;
-  padding-left: 10px;
+.popular_posts a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: #1A3F7A;
+  text-decoration: none;
+  font-weight: bold;
+  display:inline;
+  height:325px;
+  width:25%;
+  float:left;
+  display:inline;
+  position:relative;
 }
 
-#iylogo {
-  margin-top: 38px;
-  margin-left: 100px;
+.surfer {
+  background:
+  linear-gradient(
+    rgba(57, 111, 196, 1),
+    rgba(57, 0, 0, 0.45)
+    ),
+    url("../images/surfer.jpg");
 }
 
-.copyright div {
-  display: inline-block;
+.surfer:hover {
+
+}
+
+.flight {
+  background:
+  linear-gradient(
+    rgba(57, 111, 196, 1),
+    rgba(57, 0, 0, 0.45)
+    ),
+    url("../images/flight.jpg");
+}
+
+.flight:hover {
+
+}
+
+.zach {
+  background:
+  linear-gradient(
+    rgba(57, 111, 196, 1),
+    rgba(57, 0, 0, 0.45)
+    ),
+    url("../images/zach.jpg");
+}
+
+.zach:hover {
+
+}
+
+.liquor {
+  background:
+  linear-gradient(
+    rgba(57, 111, 196, 1),
+    rgba(57, 0, 0, 0.45)
+    ),
+    url("../images/liquor.jpg");
+}
+
+.liquor:hover {
+
+}
+
+/*******************************
+FOOTER
+********************************/
+footer {
+  padding-top: 20px;
+}
+
+footer nav {
+  display: inline;
+}
+
+.copyright p {
+  color: #CFCFD1;
 }
 
 .footer_nav {
   background-color: #1A3F7A;
-  padding-bottom: 20px;
+  padding: 20px 0 20px 0;
 }
 
-footer nav {
-  float: right;
-  margin-top: -38px;
-}
-
-footer ul {
-  margin-right: 100px;
-}
-
-footer li {
+.right_footer_nav li {
   padding-left: 10px;
-}
-
-footer p {
-  color: #CFCFD1;
 }
 
 footer a, li {
     color: #CFCFD1;
 }
 
-.pop_posts a {
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px;
-  color: #1A3F7A;
-  text-decoration: none;
-  font-weight: bold;
+.copyright {
+  margin-left: 100px;
+  margin-top: 310px;
+}
+
+.copyright img, .copyright p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright img {
+  margin-right: 5px;
+}
+
+.right_footer_nav {
+  float: right;
+  margin-right: 100px;
+  margin-top: -40px;
 }

@@ -218,14 +218,6 @@ aside a, li {
 SECTION
 ********************************/
 
-.popular_posts {
-  font-size: 0;
-}
-
-.surfer {
-  font-size: 16px;
-}
-
 section {
   border-top: 2px solid #CFCFD1;
   margin-top: 100px;
@@ -238,18 +230,24 @@ section h2 {
   margin-bottom: 30px;
 }
 
-.popular_posts a {
+.popular_posts a, .popular_posts div {
   font-family: 'Oswald', sans-serif;
-  font-size: 32px;
+  font-size: 34px;
   color: #1A3F7A;
   text-decoration: none;
   font-weight: bold;
-  display:inline;
-  height:325px;
-  width:25%;
-  float:left;
-  display:inline;
-  position:relative;
+  display: inline;
+  height: 325px;
+  width: 25%;
+  float: left;
+  position: relative;
+}
+
+.popular_posts p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
 }
 
 .surfer {
@@ -262,7 +260,7 @@ section h2 {
 }
 
 .surfer:hover {
-
+  background-image: url("../images/surfer.jpg")
 }
 
 .flight {
@@ -275,7 +273,7 @@ section h2 {
 }
 
 .flight:hover {
-
+  background-image: url("../images/flight.jpg")
 }
 
 .zach {
@@ -288,7 +286,7 @@ section h2 {
 }
 
 .zach:hover {
-
+  background-image: url("../images/zach.jpg")
 }
 
 .liquor {
@@ -301,7 +299,7 @@ section h2 {
 }
 
 .liquor:hover {
-
+  background-image: url("../images/liquor.jpg")
 }
 
 /*******************************

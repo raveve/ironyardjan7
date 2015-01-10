@@ -104,6 +104,7 @@ h2 {
 .auth_name {
   color: #1A3F7A;
   font-weight: bold;
+  margin-right: 15px;
 }
 
 article {
@@ -112,11 +113,12 @@ article {
   margin-right: 10%;
 }
 
-article li {
-  display: inline;
+.post_info img, .post_info p {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-article ul {
+article div {
   text-decoration: none;
   padding-left: 0;
   margin-top: 0;
@@ -126,6 +128,7 @@ article ul {
 .mini_author {
   border-radius: 100%;
   height: 25px;
+  margin-right: 10px;
 }
 
 article p {
@@ -134,7 +137,7 @@ article p {
   line-height: 1.8em;
 }
 
-article a {
+article a, .color_change {
   color: #CFCFD1;
 }
 
@@ -243,6 +246,10 @@ section h2 {
   position: relative;
 }
 
+.popular_posts a {
+  width: 325px;
+}
+
 .popular_posts p {
   position: absolute;
   bottom: 20px;
@@ -261,7 +268,11 @@ section h2 {
 }
 
 .surfer:hover {
-  background-image: url("../images/surfer.jpg")
+  background-image: url("../images/surfer.jpg");
+}
+
+.surfer:hover a {
+  color: #FFFFFF;
 }
 
 .flight {
@@ -274,7 +285,11 @@ section h2 {
 }
 
 .flight:hover {
-  background-image: url("../images/flight.jpg")
+  background-image: url("../images/flight.jpg");
+}
+
+.flight:hover a {
+  color: #FFFFFF;
 }
 
 .zach {
@@ -287,7 +302,11 @@ section h2 {
 }
 
 .zach:hover {
-  background-image: url("../images/zach.jpg")
+  background-image: url("../images/zach.jpg");
+}
+
+.zach:hover a {
+  color: #FFFFFF;
 }
 
 .liquor {
@@ -300,7 +319,11 @@ section h2 {
 }
 
 .liquor:hover {
-  background-image: url("../images/liquor.jpg")
+  background-image: url("../images/liquor.jpg");
+}
+
+.liquor:hover a {
+  color: #FFFFFF;
 }
 
 /*******************************
